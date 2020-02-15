@@ -5,14 +5,7 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyCr2NoVP3OyLyRuRGhvHDrSKiiZHsVozPk",
-    authDomain: "fir-crudapp-576fe.firebaseapp.com",
-    databaseURL: "https://fir-crudapp-576fe.firebaseio.com",
-    projectId: "fir-crudapp-576fe",
-    storageBucket: "fir-crudapp-576fe.appspot.com",
-    messagingSenderId: "1052270023029",
-    appId: "1:1052270023029:web:06b88ef6b3919446b5433c",
-    measurementId: "G-PN13WB4XTE"
+    // add firebaseConfig details here obtained when you create a project in firebase
   }
 };
 
