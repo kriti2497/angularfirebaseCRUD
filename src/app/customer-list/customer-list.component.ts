@@ -26,6 +26,12 @@ export class CustomerListComponent implements OnInit {
     });
   }
 
+ //customerService.populateCustomerData(cust)
+  //populate data
+  populateData(customer){
+    this.customerService.populateCustomerData(customer);
+  }
+
   //on delete asking for a prompt whether u really want to delete
   onDelete($key){
     if(confirm('Are you sure to delete this record?')){

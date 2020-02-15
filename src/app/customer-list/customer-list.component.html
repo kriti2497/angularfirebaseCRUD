@@ -17,7 +17,7 @@
             <td>{{ cust.mobile }}</td>
             <td>{{ cust.location }}</td>
             <td>
-                <button class="btn btn-outline-info" (click)="customerService.populateCustomerData(cust)">Edit</button>
+                <button class="btn btn-outline-info" (click)="populateData(cust)">Edit</button>
                 <button class="btn btn-outline-danger" (click)="onDelete(cust.$key)">Delete</button>
             </td>
         </tr>
